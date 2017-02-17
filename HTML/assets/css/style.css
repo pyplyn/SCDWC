@@ -188,8 +188,15 @@ a:hover, a:focus, a:active {
   background-image: linear-gradient(160deg, #115b9b -25%, #1290f8 50%, #115b9b 125%);*/
   color: #fff;
 }
+.about-us-col:hover {
+	background-color:hsla(0,0%,95%,0.89);
+	color:hsla(0,0%,11%,0.93);
+}
 .about-us-col .col-icon-wrapper {
   min-height: 80px;
+}
+.about-us-col .col-icon-wrapper:hover {
+  color: hsla(0,0%,11%,0.93);
 }
 .about-us-col .col-title {
   text-transform: uppercase;
@@ -308,11 +315,11 @@ a:hover, a:focus, a:active {
 /* Team 
 ================================= */
 .team-member {
-  background: hsla(0,0%,32%,0.63);
-  color: #fff;
+  background: hsla(0,0%,100%,1.00);
+  color: #1E1E1E;
   text-align: center;
   padding-bottom: 15px;
-  border: 1px solid hsla(0,0%,32%,0.63);
+  border: 1px solid hsla(0,16%,87%,0.91);
 }
 .team-member .thumnail img {
   width: 100%;

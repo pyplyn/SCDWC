@@ -308,10 +308,11 @@ p {
 .logo {
   width: 100%;
   margin: -30px 0 25px;
+  padding-top: 30px;
 }
 .logo img {
   width: 200px;
-  height: auto;
+  height: 200px;
 }
 .text-logo {
   color: #2098f5;
